@@ -1,0 +1,40 @@
+.menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#left {
+  width: 100%;
+  background-color: white;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+#left:hover {
+  width: 500%;
+}
+#mid {
+  width: 100%;
+  background-color: grey;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in
+}
+#mid:hover {
+  width: 500%;
+}
+#right {
+  width: 100%;
+  background-color: navy;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+#right:hover {
+  width: 500%;
+}
+.divLink{
+  display:inline-block;
+  width:100%;
+  height:80%;
+  top:0;
+  left: 0;
+  z-index: 1;
+}
